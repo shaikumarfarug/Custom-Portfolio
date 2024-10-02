@@ -4,32 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>My Portfolio</title>
+    
 </head>
 <body>
     <header class="heading">
-        <h1>WELCOME TO MY PROFILE</h1>
+        <h1 class="portfolio">Portfolio</h1>
+        <a style="margin-left: -320px;"href="index.html"><img src="home.png" alt="home" width="25px" ></a>
+
+        <!-- Navigation Links -->
         <nav class="nav">
             <ul class="section">
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <p id="declaration">Hi, I'm Thirumal. I'm a web developer with skills in Java, SQL, and basic frontend technologies.</p>
         </nav>
-    </header>
-    <article style="text-align: center;" class="article">
-        <img src="spider-bomma.jpg" alt="Spider Gaadu" width="50%">
-    </article>
-    <footer class="footer">
-        <H4 id="social-profile">SOCIAL MEDIA PROFILES</H4>
-        <a href="https://www.linkedin.com/in/thirumal-chikka-10b09125a/"><img class="social-media" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="insta" ></a>
-        <a href=""><img class="social-media" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="insta" ></a>
-        <a href=""><img class="social-media" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4h4yf5vhuu8_Dqf5VC1l1tFbIJ88N4H24jg&s" alt="insta" ></a>
-        <a href="https://www.instagram.com/thirumalvenkat111/?hl=en"><img class="social-media"src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" alt="insta" ></a>
-        
-    </footer>
 
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a class="hover-effect" href="https://www.linkedin.com/in/thirumal-chikka-10b09125a/"><img class="social-media" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRokEYt0yyh6uNDKL8uksVLlhZ35laKNQgZ9g&s" alt="LinkedIn"></a>
+            <a class="hover-effect" href="#"><img class="social-media" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub"></a>
+            <a class="hover-effect" href="#"><img class="social-media" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4h4yf5vhuu8_Dqf5VC1l1tFbIJ88N4H24jg&s" alt="Other"></a>
+            <a class="hover-effect" href="https://www.instagram.com/thirumalvenkat111/?hl=en"><img class="social-media" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png" alt="Instagram"></a>
+        </div>
+    </header>
+
+    <!-- Name Section -->
+    <div class="name-container">
+        <h6 class="name-tag">Tammudu,</h6>
+        <h3 class="name-class">I'm Great..</h3>
+        <h4 class="designation">Web developer</h4>
+        <button class="hire-button">Hire Chey Tammudu</button>
+    </div>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            
+            I’m a passionate web developer with a strong focus on crafting efficient, user-centric, and innovative web solutions. With a background in both front-end and back-end development, I thrive on transforming ideas into seamless digital experiences. My expertise spans various technologies and frameworks, and I’m always eager to learn and implement the latest trends in web development. Whether it’s building responsive websites or complex web applications, my goal is to deliver quality code and creative solutions that exceed expectations..</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="skill-spacing">Skills</h2>
+
+       <div class="skill-container"> 
+        <div class="front-end-dev"><p ><h6 class="skills-heading">Front-End Development:</h6>
+            <br>
+            <strong>Languages & Markup:</strong>HTML5, CSS3, JavaScript (ES6+) <br>
+            <strong>Frameworks & Libraries: </strong>React.js
+            <strong></strong>Bootstrap, Tailwind CSS<br></div> 
+            <div class="git"> <h6 class="skills-heading">Version Control: </h6> <br>Git, GitHub <br></div>
+
+           <div class="java-dev"> <h6 class="skills-heading">Java Development </h6><br>
+            <strong>Core Java:</strong> OOP concepts, data structures, algorithms <br>
+            <strong>Frameworks:</strong> Spring Boot for building RESTful APIs and web services </div>
+           
+          <div class="sql"><h6 class="skills-heading">SQL & Databases </h6> <br>
+            <strong>Database Management:</strong> MySQL, PostgreSQL, SQL Server <br>
+            <strong>Skills:</strong> Writing complex queries, database design, normalization, and optimization <br>
+            <strong>Database Integration:</strong> Connecting SQL databases to front-end and back-end systems <br></div>
+             
+           </p>
+       </div> 
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Description: PharmaSync is an intelligent healthcare platform that uses Natural Language Processing (NLP) to predict diseases based on patient-reported symptoms, prescribe appropriate medications, and connect patients with nearby medical stores for quick fulfillment. By automating the symptom analysis process and integrating with Electronic Health Records (EHR), PharmaSync enhances diagnostic accuracy and streamlines the prescription and delivery process, making healthcare more accessible and efficient.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>
+        <strong>Email:</strong> <a href="mailto:shaikumarfarug333@gmail.com">shaikumarfarug333@gmail.com</a>
+           </p>
+    </section>
+
+   
 </body>
 </html>
