@@ -1,0 +1,40 @@
+.heading{
+    background-color:antiquewhite;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+    background-color:antiquewhite;
+}
+#declaration{
+    font-style: italic;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.social-media{
+    width: 40px;
+    margin-right: 70px;
+    /* margin-top: 50px; */
+}
+footer{
+    text-align: center;
+}
+#social-profile{
+    margin-top: 80px;
+}
+a:hover{
+    background-color: rgb(255, 196, 196);
+    color: blueviolet;
+    font-size: 17px;
+    
+}
